@@ -1,0 +1,4 @@
+{
+  "DBType" : "MSSQL",
+  "DBConnection": "tralala url and pass"
+}

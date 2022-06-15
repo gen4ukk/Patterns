@@ -11,10 +11,12 @@ RobotBuilder robotBuilder = new RobotBuilder();
 //    .AddBoots()
 //    .CreateProduct();
 
-var robot = robotBuilder.AddHead()
+var robot = robotBuilder
+    .AddHead()
+    .AddNeck()
     .AddHands()
     .AddBody()
-    .AddHands()
+    .AddHead()
     .AddLegs()
     .AddBoots()
     .CreateProduct();
