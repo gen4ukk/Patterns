@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clone", "Clone\Clone.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{0FB26A6C-08EC-4ACE-BBE3-C6065B821754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{DC8261D2-DE02-4F45-BC0E-5D6254740741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{DC8261D2-DE02-4F45-BC0E-5D6254740741}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{DA73ADFF-AB55-4D06-93AD-DC3ABE877EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{60AB6B56-84E5-46B7-A156-5F1E692826B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{83D7986F-44AD-479E-BC7C-111B88284803}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{DC8261D2-DE02-4F45-BC0E-5D6254740741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC8261D2-DE02-4F45-BC0E-5D6254740741}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC8261D2-DE02-4F45-BC0E-5D6254740741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA73ADFF-AB55-4D06-93AD-DC3ABE877EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA73ADFF-AB55-4D06-93AD-DC3ABE877EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA73ADFF-AB55-4D06-93AD-DC3ABE877EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA73ADFF-AB55-4D06-93AD-DC3ABE877EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AB6B56-84E5-46B7-A156-5F1E692826B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AB6B56-84E5-46B7-A156-5F1E692826B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AB6B56-84E5-46B7-A156-5F1E692826B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AB6B56-84E5-46B7-A156-5F1E692826B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D7986F-44AD-479E-BC7C-111B88284803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D7986F-44AD-479E-BC7C-111B88284803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D7986F-44AD-479E-BC7C-111B88284803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D7986F-44AD-479E-BC7C-111B88284803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
